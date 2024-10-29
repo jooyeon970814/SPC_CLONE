@@ -1,0 +1,86 @@
+/* common.css */
+
+header {
+  width: 100vw;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+figure > img {
+  width: 100%;
+}
+figure > .content-title {
+  position: relative;
+}
+figcaption > .content-title {
+  position: absolute;
+}
+
+article > div > figure {
+  position: relative;
+}
+article > div > figure > figcaption {
+  position: absolute;
+  font-size: 34px;
+  margin: 0 auto;
+  top: 30px;
+  left: 30px;
+  font-weight: bold;
+  color: white;
+}
+section {
+  padding: 0 5.4rem 5rem;
+}
+.head-icon img {
+  max-height: 60px;
+}
+.flex-fig {
+  top: 30%;
+  text-align: center;
+  font-size: 130px;
+}
+.left-30 {
+  left: 10%;
+}
+.head-menu nav ul {
+  display: flex;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.head-menu nav ul li {
+  margin-right: 40px;
+}
+
+.main-content {
+  position: relative;
+  padding: 20px;
+}
+
+.content-title {
+  position: absolute;
+  margin: 0 auto;
+  color: white;
+
+  text-align: center;
+  font-weight: bold;
+}
+.content-title > h1 {
+  font-size: 54px;
+}
+.content-title > p {
+  font-size: 106px;
+}
+
+.footer {
+  background: #f5f5f5;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
